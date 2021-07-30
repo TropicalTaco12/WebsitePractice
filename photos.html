@@ -1,21 +1,75 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script type="text/javascript" src="assets/javascript.js"></script>
         <link rel="stylesheet" href="assets/stylesheet.css">
         <title>Photos | My Website</title>
+        <h1><a href="welcome.html" id="titleWelcome"><img src="assets/images/cute-taco-mascot-vector-icon-260nw-1717705387.jpg"> TACO</a></h1>
     </head>
     <body>
-        <div class="sidenav"> 
+
+       <div class="sidenav"> 
             <a href="index.html">Home</a>
             <a href="games.html">Games</a>
             <a href="contactme.html">Contact</a>
             <a href="photos.html">Photos</a>
         </div>
-        <div class="main">
-            <div class ="aaron">
-                <img src="assets/images/Me.JPG"></a>
+       <!--<div class="main" id="photoMain">
+            <div class="photoGallery">
+                <u>RANDOM PHOTOS</u>
+                <br>
+                <img src="assets/images/Me (2).JPG" id="ME">
+                <br>
+                <img src="assets/images/IMG_1660.jpg" id="Issa">
+                <br>
+                <img src="assets/images/cute-taco-mascot-vector-icon-260nw-1717705387.jpg" id="taco">
             </div>
-        </div>
+        </div>-->
+        <!--<div id="slideshow-example" data-component="slideshow">
+            <u>RANDOM PHOTOS</u>
+            <div role="list">
+              <div class="slide">
+                <img src="assets/images/cute-taco-mascot-vector-icon-260nw-1717705387.jpg" id="taco">
+              </div>
+              <div class="slide">
+                <img src="assets/images/giphy.gif" id="gif">
+              </div>
+              <div class="slide">
+                <img src="assets/images/Me (2).JPG" id="me">
+              </div>
+              <div class="slide">
+                <img src="assets/images/IMG_1588.JPG" id="grad">
+              </div>
+            </div>
+          </div>--><!-- Slideshow container -->
+          
+<div class="slideshow-container">
+    <u id="randomphotostitle">RANDOM PHOTOS</u>
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+     
+      <img src="assets/images/IMG_1588.JPG" style="width:100%">
+    </div>
+  
+    <div class="mySlides fade">
+     
+      <img src="assets/images/Me (2).JPG" style="width:100%">
+
+    </div>
+  
+    <div class="mySlides fade">
+     
+      <img src="assets/images/giphy.gif" style="width:100%">
+
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+        <script src="assets/javascript.js"></script>
         
     </body>
 </html>
